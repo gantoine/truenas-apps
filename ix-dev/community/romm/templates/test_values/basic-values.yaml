@@ -16,8 +16,9 @@ network:
   host_network: false
 
 ix_volumes:
-  mariadb_data: /opt/tests/mnt/gaseous-db
-  data: /opt/tests/mnt/gaseous
+  mariadb_data: /opt/tests/mnt/romm-db
+  romm_resources: /opt/tests/mnt/romm-resources
+  romm_redis_data: /opt/tests/mnt/romm-redis
 
 run_as:
   user: 568
